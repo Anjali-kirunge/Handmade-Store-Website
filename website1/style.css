@@ -1,0 +1,23 @@
+body { background:#f3f3f3; font-family:Arial; }
+
+.navbar { background:#131921; }
+.hero { height:50vh; }
+
+.card { border-radius:10px; transition:0.3s; }
+.card:hover { transform:scale(1.05); box-shadow:0 5px 15px rgba(0,0,0,0.2); }
+
+.product-card img { height:200px; object-fit:cover; }
+.price { color:#b12704; font-weight:bold; }
+
+button { width:100%; }
+footer a:hover {
+    color: #f0c14b;
+}
+
+footer h5 {
+    margin-bottom: 15px;
+}
+
+footer p, footer li {
+    font-size: 14px;
+}

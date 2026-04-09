@@ -1,0 +1,347 @@
+<!-- ================= index.html ================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Handmade Store - UI Only</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg p-3">
+<div class="container">
+<a class="navbar-brand text-white" href="#">Handmade Store</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+<li class="nav-item"><a class="nav-link text-white" href="#shop">Shop</a></li>
+<li class="nav-item"><a class="nav-link text-white" href="#cart">Cart 🛒</a></li>
+<li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- HERO -->
+ <section>
+<div id="img-slider" class="carousel slide" data-bs-ride="carousel" style="max-height:350px; overflow:hidden;">
+
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#img-slider" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#img-slider" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#img-slider" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner">
+
+        <div class="carousel-item active">
+            <img src="https://images.pixels.com/images/artworkimages/mediumlarge/3/handmade-ceramics-eva-lechner.jpg"
+                 class="d-block w-100"
+                 style="height:350px; object-fit:cover;">
+            <div class="carousel-caption">
+                <h1 class="display-4">Handmade collection 1</h1>
+                <p>Beautiful handmade ceramics collection.</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="https://images.pixels.com/images/artworkimages/mediumlarge/3/burmese-umbrellas-3-delphimages-photo-creations.jpg"
+                 class="d-block w-100"
+                 style="height:350px; object-fit:cover;">
+            <div class="carousel-caption">
+                <h1 class="display-4">Handmade collection 2</h1>
+                <p>Colorful traditional handmade items.</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="https://render.pixels.com/images/rendered/default/print/8/5.5/break/images-medium-5/colorful-congas-carlos-caetano.jpg"
+                 class="d-block w-100"
+                 style="height:350px; object-fit:cover;">
+            <div class="carousel-caption">
+                <h1 class="display-4">Handmade collection 3</h1>
+                <p>Unique artistic handmade designs.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#img-slider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#img-slider" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+
+</div>
+</section>
+
+<!-- CATEGORIES -->
+ <div class="container-fluid bg-dark bg-opacity-75 py-5 mt-4">
+<section id="home" class="container mt-5" py-4>
+<h2 class="text-center mb-5">Shop by Category</h2>
+<div class="row">
+<div class="col-md-3"><div class="card p-3 text-center">👜 Handbags</div></div>
+<div class="col-md-3"><div class="card p-3 text-center">🏺 Pots</div></div>
+<div class="col-md-3"><div class="card p-3 text-center">🏡 Decor</div></div>
+<div class="col-md-3"><div class="card p-3 text-center">💍 Jewelry</div></div>
+<div class="col-md-3 mt-3"><div class="card p-3 text-center">🎨 Paintings</div></div>
+<div class="col-md-3 mt-3"><div class="card p-3 text-center">🪵 Wood Craft</div></div>
+</div>
+</section>
+</div>
+<!-- PRODUCTS -->
+ <div class="conatainer-fluid bg-dark bg-opacity-75">
+<section id="shop" class="container mt-5">
+<h2 class="text-center mb-4">Our Products</h2>
+<div class="row">
+
+<div class="col-md-3 mb-4">
+<div class="card product-card">
+<img src="https://render.pixels.com/images/rendered/default/print/8/5.5/break/images-medium/drum-toy-carlos-caetano.jpg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Handbag</h5>
+<p class="price">₹500</p>
+<button class="btn btn-warning">Add to Cart</button>
+<button class="btn btn-dark mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 mb-4">
+<div class="card product-card">
+<img src="https://render.pixels.com/images/rendered/default/print/8/5.5/break/images/artworkimages/medium/3/lot-of-colorful-rainbow-toy-bricks-background-n-akkash.jpg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Clay Pot</h5>
+<p class="price">₹300</p>
+<button class="btn btn-warning">Add to Cart</button>
+<button class="btn btn-dark mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 mb-4">
+<div class="card product-card">
+<img src="https://render.pixels.com/images/rendered/default/print/8/5.5/break/images-medium-5/sun-hats-tom-gowanlock.jpg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Decor Item</h5>
+<p class="price">₹700</p>
+<button class="btn btn-warning">Add to Cart</button>
+<button class="btn btn-dark mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 mb-4">
+<div class="card product-card">
+<img src="https://render.pixels.com/images/rendered/default/print/8/5.5/break/images-medium-5/colorful-congas-carlos-caetano.jpg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Jewelry</h5>
+<p class="price">₹400</p>
+<button class="btn btn-warning">Add to Cart</button>
+<button class="btn btn-dark mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+</div>
+<div class="row">
+
+<div class="col-md-3 mb-4">
+<div class="card product-card">
+<img src="https://images.pixels.com/images/artworkimages/mediumlarge/1/three-handmade-easter-eggs-on-creamy-background-michal-bednarek.jpg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Handbag</h5>
+<p class="price">₹500</p>
+<button class="btn btn-warning">Add to Cart</button>
+<button class="btn btn-dark mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 mb-4">
+<div class="card product-card">
+<img src="https://images.pixels.com/images/artworkimages/mediumlarge/3/honeycomb-pattern-in-rainbow-colors-background-michal-bednarek.jpg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Clay Pot</h5>
+<p class="price">₹300</p>
+<button class="btn btn-warning">Add to Cart</button>
+<button class="btn btn-dark mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 mb-4">
+<div class="card product-card">
+<img src="https://images.pixels.com/images/artworkimages/mediumlarge/2/rush-weaving-lecce-italy-ferruccio-carassale.jpg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Decor Item</h5>
+<p class="price">₹700</p>
+<button class="btn btn-warning">Add to Cart</button>
+<button class="btn btn-dark mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 mb-4">
+<div class="card product-card">
+<img src="https://images.pixels.com/images/artworkimages/mediumlarge/2/pottery-washiful-majid.jpg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Jewelry</h5>
+<p class="price">₹400</p>
+<button class="btn btn-warning">Add to Cart</button>
+<button class="btn btn-dark mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+</div>
+<div class="row">
+
+<div class="col-md-3 mb-4">
+<div class="card product-card">
+<img src="https://images.pixels.com/images/artworkimages/mediumlarge/2/a-stack-of-handmade-ceramic-bowls-bedudzinski.jpg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Handbag</h5>
+<p class="price">₹500</p>
+<button class="btn btn-warning">Add to Cart</button>
+<button class="btn btn-dark mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 mb-4">
+<div class="card product-card">
+<img src="https://images.pixels.com/images/artworkimages/mediumlarge/1/1-sunflowers-vincent-van-gogh.jpg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Clay Pot</h5>
+<p class="price">₹300</p>
+<button class="btn btn-warning">Add to Cart</button>
+<button class="btn btn-dark mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 mb-4">
+<div class="card product-card">
+<img src="https://images.pixels.com/images/artworkimages/mediumlarge/2/single-jar-with-red-and-white-dotted-fabric-over-the-lid-sian-irvine.jpg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Decor Item</h5>
+<p class="price">₹700</p>
+<button class="btn btn-warning">Add to Cart</button>
+<button class="btn btn-dark mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 mb-4">
+<div class="card product-card">
+<img src="https://images.pixels.com/images/artworkimages/mediumlarge/2/handmade-lavender-bag-and-lavender-flowers-regina-hippel.jpg" class="card-img-top">
+<div class="card-body text-center">
+<h5>Jewelry</h5>
+<p class="price">₹400</p>
+<button class="btn btn-warning">Add to Cart</button>
+<button class="btn btn-dark mt-2">Buy Now</button>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+</div>
+<!-- CART UI -->
+<section id="cart" class="container-fluid bg-dark bg-opacity-75 mt-5 mb-5">
+<h2 class="text-center mb-4">Cart Summary</h2>
+<table class="table table-bordered text-center">
+<thead>
+<tr><th>Product</th><th>Price</th><th>Quantity</th><th>Total</th></tr>
+</thead>
+<tbody>
+<tr><td>Handbag</td><td>₹500</td><td>1</td><td>₹500</td></tr>
+<tr><td>Clay Pot</td><td>₹300</td><td>2</td><td>₹600</td></tr>
+</tbody>
+</table>
+<h4 class="text-end">Grand Total: ₹1100</h4>
+<button class="btn btn-success float-end">Proceed to Payment</button>
+</section>
+<!-- CONTACT ME -->
+<section id="contact" class="container-fluid bg-black bg-opacity-75 py-5 mt-5">
+<h2 class="text-center mb-4">Contact Me</h2>
+
+<form class="w-50 mx-auto">
+<input class="form-control mb-3" placeholder="Name">
+<input class="form-control mb-3" placeholder="Email">
+<textarea class="form-control mb-3" rows="4"></textarea>
+<button class="btn btn-warning w-100">Send</button>
+</form>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white pt-5 pb-3 mt-5">
+  <div class="container">
+    <div class="row">
+
+      <!-- About -->
+      <div class="col-md-3">
+        <h5>Handmade Store</h5>
+        <p>We bring you unique handmade products crafted with love and creativity. Explore beautiful collections made by artisans.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-3">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#home" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="#shop" class="text-white text-decoration-none">Shop</a></li>
+          <li><a href="#cart" class="text-white text-decoration-none">Cart</a></li>
+          <li><a href="#offers" class="text-white text-decoration-none">Offers</a></li>
+        </ul>
+      </div>
+
+      <!-- Categories -->
+      <div class="col-md-3">
+        <h5>Categories</h5>
+        <ul class="list-unstyled">
+          <li>Handbags</li>
+          <li>Pots</li>
+          <li>Decor</li>
+          <li>Jewelry</li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3">
+        <h5>Contact Us</h5>
+        <p>Email: support@handmade.com</p>
+        <p>Phone: +91 9876543210</p>
+        <p>Location: India</p>
+      </div>
+
+    </div>
+
+    <!-- Bottom -->
+    <hr class="bg-light">
+    <div class="text-center">
+      <p class="mb-0">© 2026 Handmade Store | Designed by You ❤️</p>
+    </div>
+  </div>
+</footer>
+
+<!-- BOOTSTRAP JS (for carousel) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
