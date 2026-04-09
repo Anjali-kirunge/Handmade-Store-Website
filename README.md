@@ -47,6 +47,9 @@ A modern and responsive **Handmade Store website UI** built using HTML, CSS, and
 - Add login/signup system
 - Payment gateway integration
 
+**##Output**
+<img width="1763" height="3760" alt="image" src="https://github.com/user-attachments/assets/f185993f-fc4a-475e-9bfe-5a81ef274d63" />
+
 ## 📧 Author
 **Anjali Kirunge**
 
